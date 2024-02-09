@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Prisha's Page </title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="profile.js"></script>
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--top navigation bar--> 
+            <div class="topnav">
+                <a href="#home">Home</a>
+                <a href="#AboutMe">About Me</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="navigationNice()"></a>
+            </div>
+            <div class="sunrise">
+                <!-- the block sunrise has: div block intro and sun--> 
+                <div class="sun">
+                    <img src="sun-50.png">
+                </div>
+                <div class="intro" id="Home">
+                    <h2>
+                        Once upon a time... in the big city, 
+                    </h2>
+                    <h2>
+                        there lived a girl who was obsessed with Matcha.
+                    </h2>
+                    <h2>
+                        She also liked tech, dogs and yummy food. 
+                    </h2> 
+                    <h2>
+                        Then all of a sudden, her fairy Godmother said: 
+                    </h2>
+                </div>
+            </div>
+            <!-- this has the fairy in a seperate div --> 
+                <div class="fairy">
+                    <img src="godmother.gif">
+                </div>
+            <div class ="my-info" id="AboutMe">
+                <!-- the block my-info has: div block about and hobbies--> 
+                <div class ="about">
+                    <h3>
+                        About Me 
+                    </h3>
+                    <div class="nerd"> <img src="nerd.png"> </div>
+                    <p>
+                        <span class="name">Name:</span> Prisha Rao
+                    </p>
+                    <p>
+                        <span class="name">Age:</span> 18 (almost 19 though)
+                    </p>
+                    <p> 
+                        <span class="name">Degree:</span> Software Engineering 
+                    </p>
+                    <p>
+                        <span class="name">Year of study:</span> 2nd (I feel old now 🥲)
+                    </p>
+                </div>
+                <div class ="hobbies">
+                    <h3>
+                        Hobbies and Silly Stuff
+                    </h3>
+                    <div class="film"> <img src="belle-beast.png"> </div>
+                    <p>
+                        Personlity: <span class="name">ENFP</span>
+                    </p>
+                    <p>
+                        Fun Fact: <span class="name">My favourite disney film is actually Beauty and the Beast (I'm not a furry, believe me 😭) </span> 
+                    </p>
+                    <p>
+                        Hobbies: <span class="name">Bowling, hanging out, trying new foods</span>
+                    </p>
+                    <p>
+                        Favourite Food: <span class="name"> Kidney Beans and Rice </span>
+                    </p>
+                </div>
+            </div>
+                <div class="capy" id="Projects">        
+                    <h2 class="Projects-heading">
+                        Projects
+                    </h2>
+                    <div class="capy-pic">
+                        <a href="https://pri-r.github.io/Catch-the-Capy-Game/" target="_blank"> <img src="capy.png"> </a>
+                    </div>    
+                    <p>
+                        One of the previous projects that I have worked on is 'Catch-the-Capy' game. It was my first step into game development. 
+                    </p>
+                    <p>
+                        After working on it for 4hrs straight, I sadly realised that the game will not reach the halls of fame for being cute and earn me millions.
+                    </p>
+                    <p>
+                        But a cute game did come out of my sad realisation. You can try it out by clicking on the image.
+                    </p>
+                </div>
+            <div class="links">
+                <button class="link-button"> Links </button>
+            </div>
+            <div class="contacts" id="Contact">
+                <button class="link"> <a href="https://github.com/pri-r" target="_blank"> Github </a> </button>
+                <button class="link"> <a href="https://www.linkedin.com/in/prisha-rao-b92033288/" target="_blank"> LinkedIn </a> </button>
+                <button class="link" id="myTooltip" onclick="tooltipFunction()"> Discord </button>
+                <button class="link"> <a href="https://www.instagram.com/prisha_r8/" target="_blank"> Instagram </a> </button>
+            </div>
+            <div class ="moon">  <img src="moon.webp" class="moon-img"> </div>
+            <div class="midnight">
+                <div class="midnight-box">
+                    <h2>Has the clock struck midnight?</h2>
+                    <button class="midnight-button" onclick="midnight()">Yes</button>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
